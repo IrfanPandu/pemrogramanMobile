@@ -1,0 +1,42 @@
+name: week7_clean_architecture
+description: "Week 7 - Clean Architecture Flutter App (Offline Notes)"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  # State Management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+  # Navigation
+  go_router: ^14.6.3
+  # Local Database
+  sqflite: ^2.4.1
+  path: ^1.9.0
+  # Dependency Injection
+  get_it: ^8.0.3
+  # Equatable for value equality
+  equatable: ^2.0.7
+  # UUID
+  uuid: ^4.5.1
+  # Intl for date formatting
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.14
+  riverpod_generator: ^2.6.3
+  custom_lint: ^0.7.5
+  riverpod_lint: ^2.6.3
+  mockito: ^5.4.5
+
+flutter:
+  uses-material-design: true
